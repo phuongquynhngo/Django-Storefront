@@ -12,5 +12,7 @@ def say_hello(request):
     # Transform
     # Send email
 
-    #return HttpResponse('Hello World')
-    return render(request, 'hello.html', {'name':'Quynh'})
+    # return HttpResponse('Hello World')
+    #return render(request, 'hello.html', {'name':'Quynh'})
+    return render(request, 'hello.html')
+# {'name':'Quynh'}: Mapping object: dictionary
