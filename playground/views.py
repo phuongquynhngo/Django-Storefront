@@ -13,4 +13,4 @@ def say_hello(request):
     # Send email
 
     #return HttpResponse('Hello World')
-    return render(request, 'hello.html')
+    return render(request, 'hello.html', {'name':'Quynh'})
